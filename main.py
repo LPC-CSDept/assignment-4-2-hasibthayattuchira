@@ -6,6 +6,12 @@ def main():
     N = int(input('Enter the number of sequences: '))
     result.append(a1)
     result.append(a2)
+    
+    for i in range(2, N):
+        a3 = a1 + a2
+        result.append(a3)
+        
+    print(*result)
     """
     ########################################
     Code Your Program here
