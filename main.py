@@ -10,6 +10,7 @@ def main():
     for i in range(2, N):
         a3 = a1 + a2
         result.append(a3)
+        a1, a2 = a2, a3
         
     print(*result)
     """
